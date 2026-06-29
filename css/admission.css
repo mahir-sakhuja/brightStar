@@ -1,0 +1,117 @@
+
+body {
+    margin: 0;
+    font-family: Arial;
+
+    
+    background: linear-gradient(to right, #74c0fc, #e7f5ff);
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #1d3557;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+}
+
+.nav-links a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    background: white;
+    color: #1d3557;
+}
+
+/* ===== FORM AREA ===== */
+.admission-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.form-box {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+
+    box-shadow: 0px 15px 40px rgba(0,0,0,0.15);
+}
+
+
+.form-box h1 {
+    color: #1d3557;
+}
+
+.form-box p {
+    color: #555;
+}
+
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+
+    border-radius: 10px;
+    border: 1px solid #ccc;
+
+    outline: none;
+    transition: 0.3s;
+}
+
+
+input:focus, select:focus {
+    border-color: #3a86ff;
+    box-shadow: 0 0 6px rgba(58,134,255,0.5);
+}
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+
+    background: #90dbf4;
+    color: #003049;
+
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #48cae4;
+    transform: scale(1.05);
+}
+
+
+#confirm {
+    margin-top: 10px;
+    color: #1d3557;
+    font-weight: bold;
+}
+/* NAVBAR LOGO IMAGE */
+.nav-logo {
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    margin-right: 8px;
+    border-radius: 50%;
+}

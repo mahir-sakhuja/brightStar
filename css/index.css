@@ -1,0 +1,144 @@
+
+body {
+    margin: 0;
+    font-family: Arial;
+
+    background: linear-gradient(to right, #74c0fc, #e7f5ff);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #1d3557;
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    background: white;
+    color: #1d3557;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+
+.hero-box {
+    background: linear-gradient(135deg, #ffffff, #f1faff);
+    padding: 70px 50px;
+    border-radius: 25px;
+    text-align: center;
+    width: 80%;
+    max-width: 750px;
+
+    box-shadow: 0px 20px 60px rgba(0,0,0,0.2);
+    border: 2px solid rgba(144, 224, 239, 0.5);
+}
+
+.hero-box h1 {
+    font-size: 52px;
+    color: #1d3557;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+.hero-box p {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 25px;
+}
+
+
+button {
+    padding: 14px 26px;
+    margin: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+
+    background: #90dbf4;
+    color: #003049;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #48cae4;
+    transform: scale(1.08);
+}
+
+.secondary {
+    background: #bde0fe;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.card {
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.card:nth-child(1) {
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+}
+
+.card:nth-child(2) {
+    background: linear-gradient(45deg, #a18cd1, #fbc2eb);
+}
+
+.card:nth-child(3) {
+    background: linear-gradient(45deg, #84fab0, #8fd3f4);
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.05);
+}
+/* CENTER LOGO */
+.center-logo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.center-logo img {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.center-logo img:hover {
+    transform: scale(1.1);
+}

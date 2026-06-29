@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact - Coaching Institute</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <h2 class="logo">
+    <img src="logo.png" alt="Logo" class="nav-logo">
+    Bright Future Coaching Institute
+</h2>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="admission.html">Admission</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<section class="contact-container">
+
+    <div class="form-box">
+        <h1>Contact Us</h1>
+        <p>We are here to help you 📩</p>
+
+        <form id="contactForm" action="https://formspree.io/f/xnjkvzkr" method="POST">
+
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+        <p id="confirm"></p>
+    </div>
+
+</section>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

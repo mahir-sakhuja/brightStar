@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admission - Coaching Institute</title>
+    <link rel="stylesheet" href="css/admission.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <h2 class="logo">
+    <img src="logo.png" alt="Logo" class="nav-logo">
+    Bright Future Coaching Institute
+</h2>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="admission.html">Admission</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+
+<section class="admission-container">
+
+    <div class="form-box">
+        <h1>Admission Form</h1>
+        <p>Start your journey with us 🚀</p>
+
+        <form id="admissionForm" action="https://formspree.io/f/xnjkvzkr" method="POST">
+
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+
+            <select name="course" required>
+                <option value="">Select Course</option>
+                <option>Class 9 & 10</option>
+                <option>Class 11 & 12</option>
+                <option>JEE Preparation</option>
+                <option>NEET Preparation</option>
+            </select>
+
+            <button type="submit">Apply Now</button>
+
+        </form>
+
+        <p id="confirm"></p>
+    </div>
+
+</section>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

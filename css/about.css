@@ -1,0 +1,110 @@
+
+body {
+    margin: 0;
+    font-family: Arial;
+
+background: linear-gradient(to right, #b8c9ff, #f3edff);
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #1d3557;
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    background: white;
+    color: #1d3557;
+}
+
+
+.about-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+
+.about-box {
+    background: linear-gradient(135deg, #ffffff, #f1faff);
+    padding: 60px;
+    border-radius: 25px;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+
+    box-shadow: 0px 20px 60px rgba(0,0,0,0.2);
+    border: 2px solid rgba(144, 224, 239, 0.5);
+}
+
+.about-box h1 {
+    font-size: 42px;
+    color: #1d3557;
+    margin-bottom: 15px;
+}
+
+.about-box p {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+
+.stats {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.stat-card {
+    width: 180px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.stat-card:nth-child(1) {
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+}
+
+.stat-card:nth-child(2) {
+    background: linear-gradient(45deg, #a18cd1, #fbc2eb);
+}
+
+.stat-card:nth-child(3) {
+    background: linear-gradient(45deg, #84fab0, #8fd3f4);
+}
+
+.stat-card:hover {
+    transform: translateY(-10px) scale(1.05);
+}
+/* NAVBAR LOGO IMAGE */
+.nav-logo {
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    margin-right: 8px;
+    border-radius: 50%;
+}
